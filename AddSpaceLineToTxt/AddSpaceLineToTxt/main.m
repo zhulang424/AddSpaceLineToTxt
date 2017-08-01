@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         
         // 将文件内容读取到 NSString
         NSString *stringOfTxtContent;
-        unsigned long encoder = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+        unsigned long encoder = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000); // TXT 编码格式
         NSData *dataOfTxtContent = [NSData dataWithContentsOfFile:kTxtAddress];
         if (!dataOfTxtContent) {
             NSLog(@"File Not Exits! Please Check The FileAddress!");
