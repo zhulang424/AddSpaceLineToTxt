@@ -1,4 +1,3 @@
 # AddSpaceLineToTxt
-向 TXT 文件中添加空行,美观排版
+给 TXT 段落间添加空行
 
-加过是每个段落之间有两个空行
